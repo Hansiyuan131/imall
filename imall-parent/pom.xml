@@ -10,6 +10,7 @@
         <module>../imall-common</module>
         <module>../imall-register</module>
         <module>../imall-auth</module>
+        <module>../imall-gateway</module>
     </modules>
     <packaging>pom</packaging>
 

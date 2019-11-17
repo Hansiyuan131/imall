@@ -1,0 +1,32 @@
+server:
+  port: 8301
+
+spring:
+  application:
+    name: Imall-Gateway
+
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 20
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    instance-info-replication-interval-seconds: 30
+    registry-fetch-interval-seconds: 3
+    serviceUrl:
+      defaultZone: http://imall:123456@localhost:8001/register/eureka/
+
+zuul:
+  routes:
+    auth:
+      path: /auth/**
+      serviceId: Imall-Auth
+      sensitiveHeaders: "*"
+  retryable: true
+  ignored-services: "*"
+  ribbon:
+    eager-load:
+      enabled: true
+
+ribbon:
+  ReadTimeout: 3000
