@@ -1,4 +1,4 @@
-package com.imall.configure;
+package com.imall.auth.configure;
 
 
 import org.springframework.context.annotation.Configuration;

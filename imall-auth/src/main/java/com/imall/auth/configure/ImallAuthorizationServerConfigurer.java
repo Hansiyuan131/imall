@@ -1,6 +1,6 @@
-package com.imall.configure;
+package com.imall.auth.configure;
 
-import com.imall.service.ImallUserDetailService;
+import com.imall.auth.service.ImallUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

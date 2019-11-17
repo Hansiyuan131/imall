@@ -1,4 +1,4 @@
-package com.imall.imallregister;
+package com.imall.register;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

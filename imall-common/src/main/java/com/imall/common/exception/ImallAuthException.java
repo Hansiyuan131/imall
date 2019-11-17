@@ -1,4 +1,4 @@
-package com.imall.exception;
+package com.imall.common.exception;
 
 public class ImallAuthException extends Exception {
     private static final long serialVersionUID = -6916154462432027437L;

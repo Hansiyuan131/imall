@@ -1,4 +1,4 @@
-package com.imall.entity;
+package com.imall.auth.entity;
 
 import java.io.Serializable;
 import lombok.Data;
