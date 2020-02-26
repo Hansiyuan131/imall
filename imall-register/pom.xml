@@ -6,13 +6,13 @@
         <artifactId>imall-parent</artifactId>
         <groupId>com.imall</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../imall-parent/pom.xml</relativePath>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>imall-register</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>imall-register</name>
-    <description>imall服务注册中心</description>
+    <description>imall微服务注册中心</description>
 
 
     <dependencies>

@@ -1,6 +1,6 @@
 package com.imall.auth.controller;
 
-import com.imall.auth.entity.ImallResponse;
+import com.imall.common.entity.ImallResponse;
 import com.imall.common.exception.ImallAuthException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.oauth2.provider.token.ConsumerTokenServices;

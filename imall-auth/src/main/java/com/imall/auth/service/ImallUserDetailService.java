@@ -1,6 +1,6 @@
 package com.imall.auth.service;
 
-import com.imall.auth.entity.ImallAuthUser;
+import com.imall.common.entity.ImallAuthUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.User;
