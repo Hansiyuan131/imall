@@ -11,6 +11,7 @@
         <module>../imall-register</module>
         <module>../imall-auth</module>
         <module>../imall-gateway</module>
+        <module>../imall-server</module>
     </modules>
     <packaging>pom</packaging>
 

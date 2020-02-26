@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: Imall-Gateway
+    name: IMall-Gateway
 
 eureka:
   instance:
@@ -20,13 +20,20 @@ zuul:
   routes:
     auth:
       path: /auth/**
-      serviceId: Imall-Auth
+      serviceId: IMall-Auth
+      sensitiveHeaders: "*"
+    system:
+      path: /system/**
+      serviceId: Imall-Server-System
+      sensitiveHeaders: "*"
+    test:
+      path: /test/**
+      serviceId: Imall-Server-Test
       sensitiveHeaders: "*"
   retryable: true
   ignored-services: "*"
   ribbon:
     eager-load:
       enabled: true
-
 ribbon:
   ReadTimeout: 3000

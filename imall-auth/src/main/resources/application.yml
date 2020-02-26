@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: Imall-Auth
+    name: IMall-Auth
   redis:
     database: 0
     host: 127.0.0.1

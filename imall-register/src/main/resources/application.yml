@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: Imall-Register
+    name: IMall-Register
   security:
     user:
       name: imall
