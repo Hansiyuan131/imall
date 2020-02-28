@@ -12,6 +12,9 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+/**
+ * 用于处理和令牌相关的请求
+ */
 @Order(2)
 @EnableWebSecurity
 public class ImallSecurityConfigure  extends WebSecurityConfigurerAdapter {
