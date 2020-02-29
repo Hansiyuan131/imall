@@ -36,6 +36,8 @@ public class ImallAuthorizationServerConfigurer extends AuthorizationServerConfi
     private PasswordEncoder passwordEncoder;
     @Autowired
     private ImallAuthProperties imallProperties;
+    @Autowired
+    private ImallWebResponseExceptionTranslator exceptionTranslator;
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
@@ -58,10 +60,8 @@ public class ImallAuthorizationServerConfigurer extends AuthorizationServerConfi
         }
     }
 
-    @Autowired
-    private ImallWebResponseExceptionTranslator exceptionTranslator;
-
     @Override
+    @SuppressWarnings("all")
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
         endpoints.tokenStore(tokenStore())
                 .userDetailsService(userDetailService)

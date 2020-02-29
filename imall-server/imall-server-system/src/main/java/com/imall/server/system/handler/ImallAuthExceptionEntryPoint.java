@@ -1,8 +1,7 @@
-package com.imall.common.handler;
+package com.imall.server.system.handler;
 
-import com.alibaba.fastjson.JSONObject;
 import com.imall.common.entity.ImallResponse;
-import com.imall.common.utils.ImallUtil;
+import com.imall.server.system.utils.ImallUtil;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
