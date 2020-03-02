@@ -12,6 +12,7 @@
         <module>../imall-auth</module>
         <module>../imall-gateway</module>
         <module>../imall-server</module>
+        <module>../imall-practice</module>
     </modules>
     <packaging>pom</packaging>
 
