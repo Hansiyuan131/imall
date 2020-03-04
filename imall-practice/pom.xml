@@ -10,7 +10,7 @@
     </parent>
 
     <modules>
-        <module>imall-pracite-helloworld</module>
+        <module>imall-practice-helloworld</module>
     </modules>
 
     <name>imall-practice</name>
