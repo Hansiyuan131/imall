@@ -1,0 +1,13 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java #额外新增的热加载目录
+      #热加载排除目录exclude=
+server:
+  port: 50001
+  servlet:
+    context-path: /demo

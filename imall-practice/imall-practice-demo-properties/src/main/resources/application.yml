@@ -1,0 +1,10 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  profiles:
+    active: dev
+server:
+  port: 50002
+  servlet:
+    context-path: /demo

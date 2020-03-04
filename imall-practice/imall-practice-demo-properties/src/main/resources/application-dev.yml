@@ -1,0 +1,8 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+developer:
+  name: dev环境
+  website: dev环境
+  qq: dev环境
+  phone-number: dev环境

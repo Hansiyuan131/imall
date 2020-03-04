@@ -1,0 +1,7 @@
+server:
+  port: 50005
+spring:
+  boot:
+    admin:
+      # 管控台上下文路径
+      context-path: /demo/admin
