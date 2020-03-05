@@ -17,6 +17,8 @@
         <module>imall-practice-demo-admin-server</module>
         <module>imall-practice-demo-logback</module>
         <module>imall-practice-demo-log-aop</module>
+        <module>imall-practice-demo-swagger</module>
+        <module>imall-practice-demo-swagger-beauty</module>
     </modules>
 
     <name>imall-practice</name>
@@ -43,7 +45,8 @@
         <okhttp.version>3.9.1</okhttp.version>
         <feign-okhttp.version>8.18.0</feign-okhttp.version>
         <lombok.version>1.16.16</lombok.version>
-        <springfox-swagger.version>2.7.0</springfox-swagger.version>
+        <springfox-swagger.version>2.9.2</springfox-swagger.version>
+        <battcn.swagger.version>2.1.2-RELEASE</battcn.swagger.version>
         <fastjson.version>1.2.30</fastjson.version>
         <fastdfs-client-java.version>1.27.0.0</fastdfs-client-java.version>
         <mysql-connector-java.version>5.1.40</mysql-connector-java.version>
@@ -166,6 +169,11 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${springfox-swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.battcn</groupId>
+                <artifactId>swagger-spring-boot-starter</artifactId>
+                <version>${battcn.swagger.version}</version>
             </dependency>
 
             <!-- elasticsearch -->

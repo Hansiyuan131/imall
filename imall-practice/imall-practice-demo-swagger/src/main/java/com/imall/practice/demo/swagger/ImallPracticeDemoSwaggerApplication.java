@@ -1,13 +1,13 @@
-package com.imall.practice.demo.logaop;
+package com.imall.practice.demo.swagger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ImallPracticeDemoLogAopApplication {
+public class ImallPracticeDemoSwaggerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ImallPracticeDemoLogAopApplication.class, args);
+        SpringApplication.run(ImallPracticeDemoSwaggerApplication.class, args);
     }
 
 }

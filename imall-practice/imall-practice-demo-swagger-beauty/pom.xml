@@ -8,9 +8,13 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>imall-practice-demo-log-aop</artifactId>
-    <name>imall-practice-demo-log-aop</name>
-    <description>imall-practice-demo-log-aop 请求日志</description>
+    <artifactId>imall-practice-demo-swagger-beauty</artifactId>
+    <name>imall-practice-demo-swagger-beauty</name>
+    <description>imall-practice-demo-swagger-beauty 美化文档样式</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -20,35 +24,19 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>com.battcn</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-        </dependency>
-
-        <!-- 解析 UserAgent 信息 -->
-        <dependency>
-            <groupId>eu.bitwalker</groupId>
-            <artifactId>UserAgentUtils</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
         </dependency>
     </dependencies>
 
