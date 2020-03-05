@@ -1,0 +1,9 @@
+server:
+  port: 50010
+  servlet:
+    context-path: /demo
+spring:
+  freemarker:
+    suffix: .ftl
+    cache: false
+    charset: UTF-8

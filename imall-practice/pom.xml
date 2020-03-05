@@ -19,6 +19,9 @@
         <module>imall-practice-demo-log-aop</module>
         <module>imall-practice-demo-swagger</module>
         <module>imall-practice-demo-swagger-beauty</module>
+        <module>imall-practice-demo-template-freemarker</module>
+        <module>imall-practice-demo-template-thymeleaf</module>
+        <module>imall-practice-demo-exception-handler</module>
     </modules>
 
     <name>imall-practice</name>
